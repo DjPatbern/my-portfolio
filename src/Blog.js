@@ -12,7 +12,7 @@ function Blog() {
     //List News Items
     const newsItem = [
       {
-        title: "Eduction",
+        title: "Education",
         //    url: "https://www.bbc.com/news",
         description:
           "Had my WAEC from Hope Academy Schools Mkpat Enin, My A'Level from Akwa Ibom College Of Art & Science, currently pursuing my Bsc in Mathematics & Statics & a Diploma in Software Engineering at Altschool Africa.",
@@ -20,17 +20,17 @@ function Blog() {
       {
         title: "Hobbies",
         //    url: "https://www.cnn.com/news",
-        description: "I love coding and making building dynamic websites with good simple animations, Aside that, I love DJing and listening to music",
+        description: "I love coding, problem solving and building dynamic websites with good simple animations, Aside that, I love reading and listening to music",
       },
       {
         title: "Autography",
         //    url: "https://news.google.com/",
-        description: "My name is Victor Bernard, I hail from Nkana, Etinan L.G.A in Akwa Ibom State. I am a professional DJ, Front-End developer, Music Distributor and Entertainment blogger.",
+        description: "My name is Victor Bernard, I hail from Akwa Ibom State, Nigeria. I am a Front-End developer with proficiency in HTML,CSS,JavaScript,ReactJS,VueJS and Firebase",
       },
       {
         title: "Aspirations",
         //    url: "https://techrunch.com/",
-        description: "I want to be positive inpact in the Africa society, I hope to achieve this by building multiple life problem solving softwares and credible charity. ",
+        description: "I want to be positive impact in the Africa society, I hope to achieve this by building multiple life problem solving softwares and credible charity. ",
       },
       {
         title: "Work Experience",

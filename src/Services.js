@@ -38,6 +38,17 @@ function Services() {
             <div className="react-bar"></div>
           </div>
 
+          <p>Vue.JS</p>
+          <div className="bar-container">
+            <div className="git-bar"></div>
+          </div>
+
+
+          <p>Firebase</p>
+          <div className="bar-container">
+            <div className="react-bar"></div>
+          </div>
+
           <p>Git</p>
           <div className="bar-container">
             <div className="git-bar"></div>

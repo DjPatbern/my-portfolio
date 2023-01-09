@@ -22,7 +22,7 @@ function Socials() {
         <a href="https://twitter.com/DLinkup" target="_blank" rel="noreferrer">
           <img src={Twitter} alt="example" />
         </a>
-        <a href="https://wa.link/qmmz1s" target="_blank" rel="noreferrer">
+        <a href="https://wa.link/mdvk6o" target="_blank" rel="noreferrer">
           <img src={Whatsapp} alt="example" />
         </a>
       </div>

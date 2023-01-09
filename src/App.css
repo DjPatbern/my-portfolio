@@ -98,7 +98,7 @@
 
 .patbern {
   width: 316px;
-  height: 385px;
+  height: 490px;
   border: #227db6 2px solid;
   /* margin-top: 10px; */
   border-radius: 20px;
@@ -464,7 +464,7 @@ img:hover {
 }
 .prepareimage img {
   width: 540px;
-  height: 360px;
+  height: 420px;
   border: #227db6 2px solid;
   border-radius: 20px;
 }

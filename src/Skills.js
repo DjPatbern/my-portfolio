@@ -1,5 +1,5 @@
 import React from "react";
-import patbern from "./site pictures/patbern5.jpg";
+import patbern from "./site pictures/pat.jpg";
 import Blog from "./Blog";
 import {BrowserRouter as Router, Link} from 'react-router-dom';
 import Map from "./Map";

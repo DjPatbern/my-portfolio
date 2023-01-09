@@ -1,9 +1,9 @@
 import React from "react";
-import altsite from "./site pictures/altsite.PNG";
-import archison from "./site pictures/archison.PNG";
-import chaaaa from "./site pictures/chaaaa.PNG";
+import tikearn from "./site pictures/tikearn.PNG";
+import techie from "./site pictures/techie.PNG";
+import pos from "./site pictures/pos.PNG";
 import gwears from "./site pictures/gwears.PNG";
-import demusiclinkup from "./site pictures/demusiclinkup.PNG";
+import gitapi from "./site pictures/gitapi.PNG";
 import typing from "./site pictures/typing.PNG";
 
 function Projects() {
@@ -11,41 +11,30 @@ function Projects() {
     <>
     <h1>PROJECTS</h1>
       <div className="web-expert">
-        <div className="mission" data-aos="zoom-in" data-aos-delay="200">
-          <h2>Alt School Site Recreate</h2>
-          <img src={altsite} alt="our mission" />
-          <p>
-            "I recreated the official website of Altschool Africa with more animations and dynamic features.
-            I did this with HTML, CSS and JavaScript. It is a simple School Landing Page that carries basic Informations 
-            about the school."
-            <form method="get" target="_blank" action="https://alt-recreate-site.patbern.repl.co/">
-        <button className="hire-btn" type="submit">View Here</button>
-    </form>
-          </p>
-        </div>
 
         <div className="vission" data-aos="zoom-in" data-aos-delay="500">
-          <h2>Archison Entertainment</h2>
-          <img src={archison} alt="our mission" />
+          <h2>Techie Meet App</h2>
+          <img src={techie} alt="our mission" />
           <p>
-            "Here is a website I made for an event/artiste management lable. The website consist of Informations about 
-            the firms signed music artistes and links to book them. It also have features to buy tickets for it's upcoming
-            events."
-            <form method="get" target="_blank" action="https://archisonentertainment.blogspot.com/">
+          This serves as a micro-blog for Tech Enthusiast to meet, post, chat, comment and like. It works with email and
+password authentication, accepts blog post with image upload, unique delete of post , comments and chats, password
+reset if forgotten and many more features. - MADE WITH: REACTJS & FIREBASE
+
+            
+            <form method="get" target="_blank" action="https://blog-app-6ea90.web.app/">
         <button className="hire-btn" type="submit">View Here</button>
     </form>
           </p>
         </div>
 
         <div className="value" data-aos="zoom-in" data-aos-delay="200">
-          <h2>Network Tracker</h2>
-          <img src={chaaaa} alt="our value" />
+          <h2>TikEarn</h2>
+          <img src={tikearn} alt="our value" />
 
           <p>
-            "This here is a web app from my Altschool's Circle. I coded out the interface with HTML and CSS.
-            While my collegues took charge of the JavaScript. This app helps track the network of any valid mobile number
-            filled on the input field"
-            <form method="get" target="_blank" action="https://circle-31-phonie.circle31.repl.co/">
+          Tikearn is a platform that enables TikTok creators to earn Money
+Tikearn also makes it easier for promoters/advertisers to promote their content at a very affordable rate. - MADE WITH: REACTJS
+            <form method="get" target="_blank" action="https://tikearn.vercel.app/">
         <button className="hire-btn" type="submit">View Here</button>
     </form>
           </p>
@@ -57,8 +46,8 @@ function Projects() {
           <h2>Gwears Website</h2>
           <img src={gwears} alt="our mission" />
           <p>
-            "This is a simple ECommerce website i built for a Boutique. Here, clothes can be ordered
-            online by costumers. The website as well carriers basic informations about the Boutique and it's forthcomings.
+          "This is a simple ECommerce website i built for a Boutique. Here, clothes can be ordered online by costumers. 
+          The website as well carriers basic informations about the Boutique and it's forthcomings.
             <form method="get" target="_blank" action="https://www.gwears.ng">
         <button className="hire-btn" type="submit">View Here</button>
     </form>
@@ -69,8 +58,9 @@ function Projects() {
           <h2>Typing Speed Game</h2>
           <img src={typing} alt="our mission" />
           <p>
-            "This is a typing speed game built with HTML, CSS and JavaScript. It test the typing speed of it's user.
-            It carries stunning functionalities like Level switching, Game sound, Complex Wordings etc. "
+          This is a typing speed game built with HTML, CSS and JavaScript. It test the typing speed of it's user. 
+          It carries stunning functionalities like Level switching, Game sound, Complex Wordings etc. 
+          - MADE WITH: HTML, CSS & JAVASCRIPT
             <form method="get" target="_blank" action="https://djpatbern.github.io/Typing-Speed-Game/">
         <button className="hire-btn" type="submit">View Here</button>
     </form>
@@ -78,13 +68,26 @@ function Projects() {
         </div>
 
         <div className="value" data-aos="zoom-in" data-aos-delay="200">
-          <h2>DmL Web Blog</h2>
-          <img src={demusiclinkup} alt="our value" />
+          <h2>Point Of Sales Portal</h2>
+          <img src={pos} alt="our value" />
 
           <p>
-            "This is a web App made with features that allow users  to download and stream songs and videos online.
-            It as well carriers features of most trending songs, recorded with most visited from it's users. "
-            <form method="get" target="_blank" action="https://www.demusiclinkup.com.ng">
+          This is a Point Of Sales Application which business users can login, upload their stock with prices, stock pictures
+and stock name. A user will just need to click on each stock that is being bought by a client and the app automatically
+sum up the price of the clients goods and print a reciept for the client - MADE WITH: REACTJS & FIREBASE
+            <form method="get" target="_blank" action="https://pos-app-8de41.web.app/">
+        <button className="hire-btn" type="submit">View Here</button>
+    </form>
+          </p>
+        </div>
+
+        <div className="mission" data-aos="zoom-in" data-aos-delay="200">
+          <h2>My GitHub Portfolio App</h2>
+          <img src={gitapi} alt="our mission" />
+          <p>
+              This app fetches data of my GitHub Portfolio using GitHub API, it displays vital informations about my portfolio 
+              to the DOM and also display all my repositories alongside details of each repository when clicked. - MADE WITH: REACTJS
+            <form method="get" target="_blank" action="https://github-api-app-f4834.web.app/">
         <button className="hire-btn" type="submit">View Here</button>
     </form>
           </p>

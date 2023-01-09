@@ -29,8 +29,8 @@ function App() {
     <div className={darkTheme ? "App" : "light-theme"}>
       <header className="App-header">
         <div className="modes">
-          <button onClick={() => setDarkTheme(false)}>Light🌞</button>
-          <button onClick={() => setDarkTheme(true)}>Dark🌃</button>
+          <button onClick={() => setDarkTheme(!darkTheme)}>{darkTheme ? "🌞" : "🌛"  }</button>
+          {/* <button onClick={() => setDarkTheme(true)}>Dark🌃</button> */}
         </div>
 
         {/* {/* Drop Down
